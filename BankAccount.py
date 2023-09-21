@@ -9,9 +9,11 @@ class  BankAccount():
     balance: None
     opening_date: None
 
-    self.balance
+    def __init__(self, account_number, account_holder, balance):
+        pass
 
 
-    def display_info
+    def display_info(self):
+        print("")
         
     
