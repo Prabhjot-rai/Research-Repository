@@ -13,7 +13,10 @@ class Book:
     
     def display(self):
         print("Title:", self.title)
-
+        print("Quantity:", self.quantity)
+        print("Price:", self.price)
+        print("Author:", self.author_name)
+    
 
 b1 = Book("Dune", 10, 5.99, "John Someone");
 b1.display()

@@ -1,9 +1,13 @@
-class Product():
+# class Product
+from math import isnan
+class Product:
     name: None
     price: None
     quantity: None
+    weight = None
 
-    def __init__(self, p_name, p_price, p_quantity):
+    # constructor
+    def __init__(self, name, price, ):
         self.name = p_name
         self.price = p_price
         self.quantity = p_quantity
